@@ -19,3 +19,13 @@ Read/Write Memory: Reads from or writes to memory based on control signals.
 Write Register: Writes back data to the register file based on control signals.
 
 PC Update: Updates the Program Counter based on control signals such as branching, jumping, and the result of the ALU operation.
+
+
+
+The code is organized into functions, each handling a specific aspect of the processor's functionality. It follows a modular approach to facilitate easy understanding, maintenance, and modification. The functions work together to execute instructions fetched from memory, manipulating data and control flow as specified by the MIPS-like instruction set architecture.
+
+This code serves as a foundation for building a functional processor simulator or emulator. It can be extended and integrated with additional components to create a more comprehensive simulation environment for educational or testing purposes.
+
+
+
+
