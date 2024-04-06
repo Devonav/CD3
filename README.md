@@ -28,4 +28,16 @@ This code serves as a foundation for building a functional processor simulator o
 
 
 
+Command-Line Interface
+Once the program is running, you'll be prompted with a command-line interface where you can enter various commands to interact with the MIPS simulator. Here are the available commands:
 
+g: Display control signals.
+r: Dump register contents.
+m [start] [end]: Dump memory contents in hexadecimal format. If start and end are not provided, dumps entire memory.
+s [steps]: Execute the specified number of steps. If no steps are provided, executes one step.
+c: Continue execution until halted.
+h: Display whether the processor is halted.
+p: Display the contents of the input file.
+i: Display the total size of memory.
+d [start] [end]: Dump memory contents in decimal format. Requires start and end addresses.
+x or q: Quit the simulator.
